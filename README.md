@@ -9,11 +9,11 @@ I am a Python student and this is my first attempt at a game in python.
 - Score will be added up after each round.
 
 ## Future improvement
--[ ] Multiplayer (2 or more)
--[ ] Multiple Game Modes
-  -[ ] Rock-Paper-Scissors-Lizard-Spock (from the Big Bang Theory)
-  -[ ] Rock-Paper-Scissors-Fire-Water (Alternate version I found)
--[ ] A nice way to exit the game
+- [ ] Multiplayer (2 or more)
+- [ ] Multiple Game Modes
+  - [ ] Rock-Paper-Scissors-Lizard-Spock (from the Big Bang Theory)
+  - [ ] Rock-Paper-Scissors-Fire-Water (Alternate version I found)
+- [ ] A nice way to exit the game
 
 ### License
 This project is licensed under the terms of the MIT license.
