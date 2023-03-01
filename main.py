@@ -4,15 +4,19 @@ Rock Paper Scissors
 Author: SyntaxEG
 """
 import random
+from typing import Tuple
+
+from game_modes import GAME_MODES
+
+MODE = 'FireWater'
+SIGNS = GAME_MODES[MODE].SIGNS
+RULES = GAME_MODES[MODE].RULES
 
 
-SIGNS = ('ROCK', 'PAPER', 'SCISSORS')
-RULES = (
-    # (winner, loser)
-    ('ROCK', 'SCISSORS'),
-    ('PAPER', 'ROCK'),
-    ('SCISSORS', 'PAPER')
-)
+class GameMode:
+    def __init__(self, shapes: Tuple[str], rules: Tuple[Tuple[str]]):
+        self.shapes = shapes
+        self.rules = rules
 
 
 class Player:
