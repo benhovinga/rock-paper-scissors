@@ -7,6 +7,9 @@ from game import Game, Player
 
 
 def main() -> None:
+    # TODO: User can pick a game mode
+    # TODO: User can set number of players (Game.calculate_winner() needs fixing for this)
+    # TODO: User can set player names and is_computer attributes
     game = Game('Classic', [Player('Player'), Player('Computer', True)])
 
     print('Welcome to Rock-Paper-Scissors')

@@ -59,4 +59,5 @@ class Game:
             print(f'{player.name}: {player.score}')
 
     def calculate_winner(self) -> Player:
+        # TODO: Calculate for more than 2 players
         return self.compare_two_signs(self.players[0], self.players[1])
