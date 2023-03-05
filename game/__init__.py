@@ -1,6 +1,6 @@
 import random
-from player import Player
-from game_modes import GAME_MODES
+from game.player import Player
+from game.game_modes import GAME_MODES
 
 
 class Game:
